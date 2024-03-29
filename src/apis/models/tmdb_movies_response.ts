@@ -17,6 +17,7 @@ export interface TMDBMovieSearchResult {
 	title: string;
 	// OR
 	name: string;
+	poster_path: string;
 }
 
 export interface TMDBMovieResponse {

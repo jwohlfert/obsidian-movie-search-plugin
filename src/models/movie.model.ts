@@ -8,6 +8,7 @@ export interface MovieSearch {
 	original_title: string;
 	release_date: string;
 	title: string;
+	poster_path: string;
 }
 
 export interface Movie {

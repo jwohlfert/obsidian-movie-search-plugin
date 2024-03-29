@@ -107,6 +107,7 @@ export class TMDBMoviesAPI implements BaseMoviesAPI {
 			release_date: result.release_date || result.first_air_date,
 			original_title: result.original_title || result.original_name,
 			media_type: this.convert_to_title_case(result.media_type),
+			poster_path: result.poster_path ? `https://image.tmdb.org/t/p/original${result.poster_path}` : "",
 		};
 		return movie_search;
 	}
