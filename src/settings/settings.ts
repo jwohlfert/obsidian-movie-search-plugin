@@ -7,7 +7,7 @@ import MovieSearchPlugin from "../main";
 import { FileSuggest } from "./suggesters/FileSuggester";
 import { FolderSuggest } from "./suggesters/FolderSuggester";
 
-const plugin_repo_url = "https://github.com/jwohlfert/obsidian-movie-search-plugin";
+const plugin_repo_url = "https://github.com/Gubchik123/obsidian-movie-search-plugin";
 
 export enum DefaultFrontmatterKeyType {
 	snake_case = "Snake Case",
